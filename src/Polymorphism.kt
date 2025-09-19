@@ -1,6 +1,6 @@
 import javax.print.attribute.standard.Sides
 fun main (){
-val circle : Shape = Shape.Circle(6.0) //parent can hold a reference to its child
+val circle : Shape = Shape.Circle(9.0) //parent can hold a reference to its child
     val square : Shape = Shape.Square(4.0)
 
     println(circle.area()) //parent can call method of child classes
