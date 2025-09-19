@@ -9,7 +9,7 @@ val circle : Shape = Shape.Circle(6.0) //parent can hold a reference to its chil
 
 open class Shape () {
     open fun area () : Double {
-        return 0.0
+        return 0.00
     }
     class Circle (val radius : Double) : Shape() {
         override fun area () : Double {
